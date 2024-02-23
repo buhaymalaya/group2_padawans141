@@ -8,7 +8,114 @@
 /* Carlos */
 
 /* Buhay */
+* {
+    font-family: Roboto;
 
+}
 
+.doubletap {
+    width: 10%;
+    margin-left: 90px;
+}
 
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+
+.signinbtn {
+    background-color: white;
+    color: blue;
+    padding: 5px;
+    width: 80px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    margin-left: 200px;
+
+}
+
+.tryitbtn {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    width: 80px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    margin-right: 80px;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+.gray {
+    color: gray;
+  
+}
+
+.signupbtn {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    width: 120px;
+    height: 40px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    margin-right: 10px;
+    
+}
+
+.chatbtn {
+    background-color: white;
+    color: blue;
+    padding: 5px;
+    width: 120px;
+    height: 40px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    
+}
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2% 2%;
+    grid-auto-flow: row;
+  }
+  
+  .box1 { grid-area: 1 / 1 / 2 / 2; }
+  
+  .box-2 { grid-area: 1 / 2 / 2 / 3; }
+  
+  .box-3 { grid-area: 1 / 3 / 2 / 4; }
+  
+  .Client-Dashboard { grid-area: 1 / 1 / 2 / 2; }
+  
+  .Employee-Profiles { grid-area: 1 / 2 / 2 / 3; }
+  
+  .Client-Calendars { grid-area: 1 / 3 / 2 / 4; }
+  
+  .Analytics { grid-area: 2 / 1 / 3 / 2; }
+  
+  .Project-Comments { grid-area: 2 / 2 / 3 / 3; }
+  
+  .Project-Folders { grid-area: 2 / 3 / 3 / 4; }
+  
+  .Time-Tracking { grid-area: 3 / 1 / 4 / 2; }
+  
+  .Email { grid-area: 3 / 2 / 4 / 3; }
+  
+  .Project-Alerts { grid-area: 3 / 3 / 4 / 4; }
+  
 /* Buhay */
