@@ -13,8 +13,12 @@
 
 }
 
+.flexbox {
+    margin: 100px;
+}
+
 .doubletap {
-    width: 10%;
+    width: 8%;
     margin-left: 90px;
 }
 
@@ -22,7 +26,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 20px;
+    
 }
+
+/* .nav {
+    margin-left: 50px;
+} */
 
 a {
     text-decoration: none;
@@ -37,7 +47,7 @@ a {
     width: 80px;
     border: 2px solid blue;
     border-radius: 8px;
-    margin-left: 200px;
+    
 
 }
 
@@ -53,10 +63,13 @@ a {
 
 h1 {
     font-weight: 500;
+    
+    
 }
 
 h3 {
     font-weight: 400;
+    font-size: x-large;
 }
 
 .gray {
@@ -87,35 +100,19 @@ h3 {
     
 }
 
-.container {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 2% 2%;
-    grid-auto-flow: row;
-  }
-  
-  .box1 { grid-area: 1 / 1 / 2 / 2; }
-  
-  .box-2 { grid-area: 1 / 2 / 2 / 3; }
-  
-  .box-3 { grid-area: 1 / 3 / 2 / 4; }
-  
-  .Client-Dashboard { grid-area: 1 / 1 / 2 / 2; }
-  
-  .Employee-Profiles { grid-area: 1 / 2 / 2 / 3; }
-  
-  .Client-Calendars { grid-area: 1 / 3 / 2 / 4; }
-  
-  .Analytics { grid-area: 2 / 1 / 3 / 2; }
-  
-  .Project-Comments { grid-area: 2 / 2 / 3 / 3; }
-  
-  .Project-Folders { grid-area: 2 / 3 / 3 / 4; }
-  
-  .Time-Tracking { grid-area: 3 / 1 / 4 / 2; }
-  
-  .Email { grid-area: 3 / 2 / 4 / 3; }
-  
-  .Project-Alerts { grid-area: 3 / 3 / 4 / 4; }
+.freetrial {
+    display: flex;
+    align-items: row;
+}
+
+h6 {
+    padding-right: 10px;
+    font-weight: 400;
+    font-size: x-small
+
+}
+
+
+
   
 /* Buhay */
