@@ -9,41 +9,23 @@
 
 /* Buhay */
 * {
+    box-sizing: border-box;
     font-family: Roboto;
-
+  
+   
 }
 
-.flexbox {
-    margin: 100px 0px 100px 180px;
-}
-
-.leftbox {
-    width: 500px;
-}
-
-.doubletap {
-    width: 8%;
-    margin-left: 90px;
-}
 
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
-    
 }
 
-
-
-/* .nav {
-    margin-left: 50px;
-} */
-
-a {
-    text-decoration: none;
-    color: black;
-    font-size: 10px;
+.doubletap {
+    width: 8%;
+    margin-left: 90px;
 }
 
 .signinbtn {
@@ -54,8 +36,6 @@ a {
     border: 1px solid rgb(45, 45, 248);
     border-radius: 8px;
     margin-right: 20px;
-    
-
 }
 
 .tryitbtn {
@@ -68,8 +48,24 @@ a {
     margin-right: 80px;
 }
 
+.twoboxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexbox {
+    margin: 30px 0px 100px 80px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+
 h1 {
-    font-weight: 500;
+    font-weight: 550;
+    font-size: 45px;
 }
 
 h3 {
@@ -86,7 +82,7 @@ h3 {
     background-color: rgb(45, 45, 248);
     color: white;
     padding: 5px;
-    width: 120px;
+    width: 130px;
     height: 40px;
     border: 2px solid rgb(45, 45, 248);
     border-radius: 8px;
@@ -98,7 +94,7 @@ h3 {
     background-color: white;
     color: rgb(45, 45, 248);
     padding: 5px;
-    width: 120px;
+    width: 130px;
     height: 40px;
     border: 2px solid rgb(45, 45, 248);
     border-radius: 8px;
@@ -120,63 +116,54 @@ h6 {
 
 
 .icons {
-    /* margin-left: 200px; */
-    /* margin-top: 60px; 
-    width: 70%; */
 
-    height: 550px;
-    margin-top: 50px;
-}
-
-
-
-.twoboxes {
-    display: flex;
-    justify-content: center;
-}
-
-/* .container {  
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "a b c"
-      "d e f"
-      "g h i";
-  } */
+    height: 500px;
+    margin-top: 30px;
   
-  /* .a { 
-    grid-area: a; 
+}
+
+footer {
     background-color: rgb(45, 45, 248);
     color: white;
-    margin: 20px;
-    width: 100px;
-    height: 80px;
-    border-radius: 50px 0;
-    font-size: xx-small;
-    
+    text-align: center;
 
 }
-  
-  .b { grid-area: b; }
-  
-  .c { grid-area: c; }
-  
-  .d { grid-area: d; }
-  
-  .e { grid-area: e; }
-  
-  .f { grid-area: f; }
-  
-  .g { grid-area: g; }
-  
-  .h { grid-area: h; }
-  
-  .i { grid-area: i; } */
-  
 
+.tryftr {
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.ftrget {
+    padding: 5px;
+    width: 150px;
+    height: 35px;
+    color: white;
+    margin-right: 40px;
+    background-color: rgb(79, 219, 79);
+    border: 2px solid rgb(45, 45, 248);
+    border-radius: 8px;
+
+}
+
+.ftrchat {
+    padding: 5px;
+    width: 150px;
+    height: 35px;
+    border: none;
+    color: rgb(45, 45, 248);
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.ftrtrial {
+    display: flex;
+    align-items: row;
+    justify-content: center;
+    padding-bottom: 60px;
+}
 
 
 
