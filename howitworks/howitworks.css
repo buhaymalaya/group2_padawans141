@@ -8,6 +8,162 @@
 /* Carlos */
 
 /* Buhay */
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+  
+   
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.doubletap {
+    width: 8%;
+    margin-left: 90px;
+}
+
+.signinbtn {
+    background-color: white;
+    color: rgb(45, 45, 248);
+    padding: 5px;
+    width: 80px;
+    border: 1px solid rgb(45, 45, 248);
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.tryitbtn {
+    background-color: rgb(45, 45, 248);
+    color: white;
+    padding: 5px;
+    width: 80px;
+    border: 2px solid rgb(45, 45, 248);
+    border-radius: 8px;
+    margin-right: 80px;
+}
+
+.twoboxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexbox {
+    margin: 30px 0px 100px 80px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+
+h1 {
+    font-weight: 550;
+    font-size: 45px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: x-large;
+}
+
+.gray {
+    color: gray;
+  
+}
+
+.signupbtn {
+    background-color: rgb(45, 45, 248);
+    color: white;
+    padding: 5px;
+    width: 130px;
+    height: 40px;
+    border: 2px solid rgb(45, 45, 248);
+    border-radius: 8px;
+    margin-right: 10px;
+    
+}
+
+.chatbtn {
+    background-color: white;
+    color: rgb(45, 45, 248);
+    padding: 5px;
+    width: 130px;
+    height: 40px;
+    border: 2px solid rgb(45, 45, 248);
+    border-radius: 8px;
+    
+}
+
+.freetrial {
+    display: flex;
+    align-items: row;
+}
+
+h6 {
+    padding-right: 10px;
+    font-weight: 400;
+    font-size: x-small;
+
+}
+
+
+
+.icons {
+
+    height: 500px;
+    margin-top: 30px;
+  
+}
+
+footer {
+    background-color: rgb(45, 45, 248);
+    color: white;
+    text-align: center;
+
+}
+
+.tryftr {
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.ftrget {
+    padding: 5px;
+    width: 150px;
+    height: 35px;
+    color: white;
+    margin-right: 40px;
+    background-color: rgb(79, 219, 79);
+    border: 2px solid rgb(45, 45, 248);
+    border-radius: 8px;
+
+}
+
+.ftrchat {
+    padding: 5px;
+    width: 150px;
+    height: 35px;
+    border: none;
+    color: rgb(45, 45, 248);
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.ftrtrial {
+    display: flex;
+    align-items: row;
+    justify-content: center;
+    padding-bottom: 60px;
+}
 
 
 
