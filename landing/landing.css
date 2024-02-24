@@ -1,1 +1,41 @@
-/* Robin */
+.card {
+    border: 15px solid purple;
+    width: .5vh;
+    margin: auto;
+    padding: 2.5vh 5% 2.5vh 5%;
+    text-align: left;
+}
+
+.box {
+    border: 1px solid rgb(0, 0, 0);
+    width: 50vh;
+    margin: auto;
+    padding: auto;
+    text-align: left;
+}
+
+.footer {
+    background-color: blue;
+    height: 75vh;
+    width: 100%;
+    border: 5vh solid rgb(41, 78, 243);
+    padding: 2.5vh 5% 25vh 5%;
+    margin: 5%;
+    text-align: center;
+}
+
+.flex {
+    border: 5px solid brown;
+    width: auto;
+    height: auto;
+    padding: 1%;
+    margin: 1%;
+}
+.mid {
+    text-align: center;
+    margin: 5%;
+}
+
+.card1 {
+    border: solid pink;
+}
