@@ -1,8 +1,10 @@
-* Jack */
-body {
-    background-color: white;
+h1 {
+    font-size: 65px;
 }
 
+.container {
+    margin: auto;
+}
 .username {
     padding-left: 25px;
     background: url("/group2_padawans141/signup/assets/Page-1.png") no-repeat 30px;
@@ -22,6 +24,15 @@ body {
 }
 
 .side-img {
-    float: right;
+    float: left;
 }
-/* Jack */
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.iconbuttons {
+    display: flex;
+    justify-content: space-evenly;
+}
