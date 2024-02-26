@@ -1,50 +1,33 @@
-/* Robin */
-.card1 {
+.card-body {
     background-color: blue;
-    color: white;
-    width: .5vh;
-    margin: 50%;
-    padding: 7vh 7% 7vh 7%;
+    color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    margin: 0%;
     text-align: left;
 }
 
 .box {
     border: 1px solid rgb(0, 0, 0);
-    width: 50vh;
+    width: 5vh;
     margin: auto;
     padding: auto;
     text-align: left;
 }
 
 .footer {
-    background-color: blue;
-    height: 5vh;
+    background-color: #2270b9;
+    height: 25vh;
     width: 100%;
     text-align: center;
-}
 
-.body p {
-    text-align: start;
-    text-overflow: initial;
-    border: 10px solid brown;
-    width: 150%;
-    height: 150%;
-    padding: 5%;
-    margin-inline-start: 100%;
-}
 
-.mid {
-    text-align: center;
-    margin: 5%;
 }
 
 .sign {
-    align-content: left;
-    border: solid pink;
-    text-align: center;
-    padding: 150%;
-    height: 100%;
-    margin-inline-start: 100%;
+    align-content: right;
+    padding: 25%;
+    margin-inline-start: 20%;
 }
 
 .start {
@@ -52,6 +35,28 @@
     height: 40%;
     width: 100%;
     text-align: center;
-    padding: 15%;
-    margin-inline-start: 100%;
+    padding: 5%;
+}
+
+.white-dot::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.blue-dot::before {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(6, 14, 119);
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.credit {
+    width: auto;
+    height: auto;
 }
