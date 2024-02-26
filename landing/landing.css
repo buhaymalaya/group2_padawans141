@@ -1,18 +1,16 @@
 .card-body {
-    background-color: blue;
+    background-color: rgb(26, 10, 243);
     color: rgb(255, 255, 255);
-    height: 100%;
-    width: 100%;
-    margin: 0%;
-    text-align: left;
+    height: auto;
+    text-align: center;
+    flex-direction: column;
+
 }
 
-.box {
-    border: 1px solid rgb(0, 0, 0);
-    width: 5vh;
-    margin: auto;
-    padding: auto;
-    text-align: left;
+.body img {
+    margin-top: 15%;
+    height: 75%;
+    width: 50%;
 }
 
 .footer {
@@ -20,23 +18,8 @@
     height: 25vh;
     width: 100%;
     text-align: center;
-
-
 }
 
-.sign {
-    align-content: right;
-    padding: 25%;
-    margin-inline-start: 20%;
-}
-
-.start {
-    border: 1px solid black;
-    height: 40%;
-    width: 100%;
-    text-align: center;
-    padding: 5%;
-}
 
 .white-dot::before {
     content: '';
@@ -56,7 +39,250 @@
     border-radius: 50%;
     margin-right: 5px;
 }
-.credit {
-    width: auto;
-    height: auto;
+
+.chat {
+    margin-top: 5%;
+    margin-bottom: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.header {
+    width: 100%;
+    margin-left: 45%;
+    word-spacing: 100%;
+}
+
+.flex_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 1cm;
+    font-weight: bold
+}
+
+
+.flexbox1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px 100px 80px;
+}
+
+.flexbox2 {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+
+.flexbox1 img {
+    height: 500px;
+    width: 400px;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.flexbox4 {
+    justify-content: space-around;
+    margin-left: 25%;
+    border-spacing: 5%;
+    height: 25%;
+    width: 50%;
+}
+
+.accepting {
+    border: 50px solid rgb(0, 2, 1);
+}
+
+.rightbox {
+    width: 600px;
+    height: 600px;
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-radius: 15px 0 0px 15px
+}
+
+.leftbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1cm;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.signupbtn {
+    background-color: rgb(45, 45, 248);
+    color: white;
+    padding: 5px;
+    width: 130px;
+    height: 40px;
+    border: 2px solid rgb(45, 45, 248);
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.chatbtn {
+    background-color: white;
+    color: rgb(45, 45, 248);
+    padding: 5px;
+    width: 130px;
+    height: 55px;
+    border: 2px solid rgb(45, 45, 248);
+    border-radius: 8px;
+}
+
+.navbar-brand {
+    margin-left: 5%;
+    width: 25%;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 0px 100px 80px;
+}
+
+.deliver {
+    margin-left: 5%;
+    margin-top: 10%;
+    font-size: medium;
+    height: 40%;
+    width: 75%;
+    flex-direction: column;
+    line-break: loose;
+}
+
+.btn5 {
+    border-radius: 8px;
+    border: solid white;
+    color: rgb(0, 0, 0);
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15%;
+    margin-left: -35%;
+    width: 300px;
+}
+
+.btn1 {
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15%;
+    width: 200px;
+
+}
+
+.btn2 {
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15%;
+    width: 200px;
+}
+
+.btn3 {
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15%;
+    width: 200px;
+}
+
+.btn4 {
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15%;
+    width: 200px;
+}
+
+.start {
+    height: 700px;
+    width: 600px;
+    flex-direction: row;
+}
+
+.payment {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 600px;
+}
+
+.payment img {
+    height: 75px;
+    width: 75px;
+    align-content: start;
+}
+
+.btn6 {
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 150px;
+    height: 700px;
+}
+
+.btn7 {
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 150px;
+}
+
+.btn8 {
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 150px;
+}
+
+.btn9 {
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 150px;
 }
